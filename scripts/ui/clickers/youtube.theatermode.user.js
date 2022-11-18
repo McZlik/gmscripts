@@ -1,5 +1,6 @@
 // ==UserScript==
-// @namespace     McZlik
+// @author        McZlik
+// @namespace     https://mczlik.com/
 // @name          Youtube - Theater mode
 // @description   Ensure YouTube is set to theater mode
 // @include       *://*.youtube.com/*

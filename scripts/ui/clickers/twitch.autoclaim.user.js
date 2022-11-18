@@ -1,5 +1,6 @@
 // ==UserScript==
-// @namespace     McZlik
+// @author        McZlik
+// @namespace     https://mczlik.com/
 // @name          Twitch.tv - auto-claim
 // @description   Automatically claim channel point bonus (green button), checks every 5 seconds
 // @include       *://*.twitch.tv/*
@@ -7,9 +8,9 @@
 // @version       1.0.0
 // @grant         none
 // ==/UserScript==
-    
+
 // Check for the existence of the bonus icon every x ms, and click it
-setInterval(function(){
+setInterval(function () {
   const buttons = document.getElementsByClassName("claimable-bonus__icon");
   for (let b of buttons) {
     b.click();
