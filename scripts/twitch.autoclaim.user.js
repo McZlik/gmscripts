@@ -1,6 +1,6 @@
 // ==UserScript==
 // @namespace     McZlik
-// @name          Twitch.tv auto-claim
+// @name          Twitch.tv - auto-claim
 // @description   Automatically claim channel point bonus (green button), checks every 5 seconds
 // @include       *://*.twitch.tv/*
 // @icon          https://static.twitchcdn.net/assets/favicon-32-e29e246c157142c94346.png
